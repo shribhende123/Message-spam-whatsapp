@@ -10,13 +10,13 @@ web_url = "https://web.whatsapp.com"
 # Open the web browser to the WhatsApp Web URL
 wb.open(web_url)
 
-# Wait for 10 seconds to allow the user to log in by scanning the QR code
+# Wait for 20 seconds to allow the user to log in by scanning the QR code
 time.sleep(20)
 
 # List of messages to send
 messages = ("Hey ", "Test Spam", "Error 404")
 
-# Send 10 random messages
+# Send 20 random messages
 for _ in range(20):
     # Choose a random message from the list
     message = random.choice(messages)
